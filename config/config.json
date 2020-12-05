@@ -1,0 +1,14 @@
+{
+  "development": {
+    "storage": "/home/ec2-user/environment/app-sequelize/database_development.sqlite",
+    "dialect": "sqlite"
+  },
+  "test": {
+    "storage": "/home/ec2-user/environment/app-sequelize/database_test.sqlite",
+    "dialect": "sqlite"
+  },
+  "production": {
+    "storage": "/home/ec2-user/environment/app-sequelize/database_production.sqlite",
+    "dialect": "sqlite"
+  }
+}
